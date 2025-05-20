@@ -1,7 +1,7 @@
 ####################################################################################################
 # UI build stage
 ####################################################################################################
-FROM registry.access.redhat.com/ubi9/nodejs-18:1-118.1724037695 AS argo-rollouts-ui
+FROM registry.access.redhat.com/ubi9/nodejs-18:9.6-1747690905 AS argo-rollouts-ui
 
 WORKDIR /src
 
